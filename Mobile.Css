@@ -1,0 +1,129 @@
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    margin: 0;
+  }
+ 
+.Header{
+    height: 35px;
+    width: 100%;
+}
+.Header-Content{
+    animation: HeaderSpin 10s ease-in 0s infinite; 
+    /* animation He Move to End */
+    font-size: 16px;
+}
+@keyframes HeaderSpin{
+    0% {
+        transform: translatex(-450px);
+    }
+    100% {
+        transform: translatex(450px);
+    }
+}
+.Logo{
+    font-size: 30px;
+    position: relative;
+    top: 25px;
+}
+#Search-icon{
+    font-size: 1.25rem;
+}
+#Cart-icon{
+    font-size: 1.25rem;
+}
+.Nav-bar{
+    gap: 0px;
+}
+button{
+    font-size: 14px;
+}
+.container{
+  height: 170px;
+}
+.slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides img {
+  width: 100%;
+  height: 170px;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0;
+  animation: slide 20s infinite;
+}
+#Crazy-Deals{
+    font-size: 20px;
+}
+.Crazy-Deals-Container{
+    width: 100%;
+    height: 300px;
+}
+.deal1{
+    height: 170px;
+    position: relative;
+    left: 20px;
+}
+.deal1 img.Image-Hover{
+    width: 170px;
+}
+
+.Sale-btn{
+    width: 35px;
+    height: 10%;
+    font-size: 13px;
+    left: -35px;
+}
+.Product-Name h3{
+    font-size: 14px;
+    position: relative;
+}
+.Add-To-Cart{
+    font-size: 16px;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+}
+.img-box{
+    width: 23.5%;
+    height: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-box{
+    width: 25%;
+    height: 40%;
+    overflow: hidden;
+    cursor: pointer;
+}
+#Coll-heading{
+    font-size: 20px;
+    top: 10px;
+}
+.Scroll-Box-Container{
+    overflow-x: auto;
+
+}
+.Scroll-Box{
+    display: inline-block;
+    width: 200%;
+    overflow-x: auto;
+}
+.product-Collection{
+    height: 200px;
+}
+.img-box img{
+    height: 180px;
+}  
+.img-box::after {
+      height: 190px;
+    }
+.img-box{
+    height: 180px;
+}
+}
